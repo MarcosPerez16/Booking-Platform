@@ -1,6 +1,6 @@
-import ListingCard from '@/components/ListingCard'
+import ListingCard from '@/components/ListingCard';
 
-const ListingList = ({listings}) => {
+const ListingList = ({ listings }) => {
   return (
     <div className='flex flex-wrap justify-center gap-4'>
       {listings.length > 0 ? (
@@ -11,7 +11,7 @@ const ListingList = ({listings}) => {
         <p>No listings found.</p>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default ListingList
+export default ListingList;
